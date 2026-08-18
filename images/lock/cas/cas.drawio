@@ -1,0 +1,347 @@
+<mxfile host="Electron" modified="2024-06-06T03:29:46.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="jSGYh6kauY3bSQ5Zkqqt" version="21.2.8" type="device">
+  <diagram name="第 1 页" id="vHDzfLrkYdSVOGZc5UFz">
+    <mxGraphModel dx="1834" dy="444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-81" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;T1时刻&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="1134" width="1234" height="658" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-80" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;T1时刻&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-39" y="421" width="873" height="658" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="517" y="736" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-2" value="i=1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="517" y="796" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="517" y="856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-4" target="y40MMHEPJYKnfeDYXbPG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-4" value="内存地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="547" y="616" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-9" value="线程1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97" y="480" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-10" target="y40MMHEPJYKnfeDYXbPG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-10" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="556" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-14" target="y40MMHEPJYKnfeDYXbPG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-14" value="加1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="669" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-16" value="将预期值B赋给 i" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="986" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-18" value="此时旧值A = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="54" y="574" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-19" value="预期值B = 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="48.5" y="681" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-23" target="y40MMHEPJYKnfeDYXbPG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-26" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-25">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-23" value="比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="157" y="811" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="1407" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-49" value="i=1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="1467" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="1527" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-52" target="y40MMHEPJYKnfeDYXbPG-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-52" value="内存地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="1287" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-53" value="线程1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="88.5" y="1151" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-55" target="y40MMHEPJYKnfeDYXbPG-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-55" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="1227" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=40;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-57" target="y40MMHEPJYKnfeDYXbPG-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-57" value="加1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-58" value="&lt;font color=&quot;#bfbfbf&quot;&gt;将预期值B赋给 i&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="1657" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-59" value="此时旧值A = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="1245" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-60" value="预期值B = 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1352" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=40;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-65" target="y40MMHEPJYKnfeDYXbPG-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-62" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-61">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-65" value="&lt;font color=&quot;#bfbfbf&quot;&gt;比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="148.5" y="1482" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-66" value="线程2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="1151" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-68" target="y40MMHEPJYKnfeDYXbPG-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-68" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="1227" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-70" target="y40MMHEPJYKnfeDYXbPG-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-70" value="加3" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-82" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-71" target="y40MMHEPJYKnfeDYXbPG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-71" value="将预期值B赋给 i" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="1657" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-72" value="此时旧值A = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="968" y="1242" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-73" value="预期值B = 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="973" y="1355" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-78" target="y40MMHEPJYKnfeDYXbPG-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-75" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-74">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-78" value="比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="1482" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-84" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;T2时刻&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="1871" width="1234" height="658" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-85" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="2144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-86" value="i=4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="2204" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-87" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="2264" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-89" target="y40MMHEPJYKnfeDYXbPG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-89" value="内存地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="2024" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-90" value="线程1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="88.5" y="1888" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-92" target="y40MMHEPJYKnfeDYXbPG-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-92" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="1964" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-94" target="y40MMHEPJYKnfeDYXbPG-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-94" value="加1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="2077" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-95" value="&lt;font color=&quot;#bfbfbf&quot;&gt;将预期值B赋给 i&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="2394" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-96" value="此时旧值A = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="1982" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-97" value="预期值B = 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2089" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=40;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-100" target="y40MMHEPJYKnfeDYXbPG-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-99" value="&lt;font color=&quot;#bfbfbf&quot;&gt;相等&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-98">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-100" target="y40MMHEPJYKnfeDYXbPG-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="377" y="2269" />
+              <mxPoint x="377" y="1994" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-100" value="比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="148.5" y="2219" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-101" value="线程2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="1888" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-103" target="y40MMHEPJYKnfeDYXbPG-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-103" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="1964" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-105" target="y40MMHEPJYKnfeDYXbPG-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-105" value="加3" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="2077" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-107" target="y40MMHEPJYKnfeDYXbPG-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-107" value="将预期值B赋给 i" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="2394" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-108" value="此时旧值A = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="968" y="1979" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-109" value="预期值B = 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="973" y="2092" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-112" target="y40MMHEPJYKnfeDYXbPG-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-111" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-110">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-112" value="比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="2219" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-116" value="此时内存的值与旧值A&amp;nbsp;不相等&lt;br&gt;内存值 = 4&lt;br&gt;旧值A = 1&lt;br&gt;预期值 = 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="2141" width="115" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-119" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;T3时刻&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="2586" width="1234" height="658" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-120" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="2859" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-121" value="i=5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="2919" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-122" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="508.5" y="2979" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-124" target="y40MMHEPJYKnfeDYXbPG-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-124" value="内存地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="2739" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-125" value="线程1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="88.5" y="2603" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-127" target="y40MMHEPJYKnfeDYXbPG-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-127" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="2679" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-129" target="y40MMHEPJYKnfeDYXbPG-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-129" value="加1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="2792" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-150" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-130" target="y40MMHEPJYKnfeDYXbPG-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-130" value="将预期值B赋给 i" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="3109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-131" value="此时旧值A = 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45.5" y="2697" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-132" value="预期值B = 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2804" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-136" target="y40MMHEPJYKnfeDYXbPG-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-134" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-133">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-136" value="比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="148.5" y="2934" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-137" value="线程2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="2603" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-139" target="y40MMHEPJYKnfeDYXbPG-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-139" value="读取 i 的值" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="2679" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-141" target="y40MMHEPJYKnfeDYXbPG-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-141" value="加3" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="2792" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-143" value="将预期值B赋给 i" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800.5" y="3109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-144" value="此时旧值A = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="968" y="2694" width="91" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-145" value="预期值B = 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="973" y="2807" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y40MMHEPJYKnfeDYXbPG-148" target="y40MMHEPJYKnfeDYXbPG-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-147" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y40MMHEPJYKnfeDYXbPG-146">
+          <mxGeometry x="-0.3131" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y40MMHEPJYKnfeDYXbPG-148" value="比较内存中 i 的值 &lt;br&gt;与&amp;nbsp; &lt;br&gt;旧值 A是否相等" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="2934" width="186" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
